@@ -6,6 +6,6 @@ output "instance_arn" {
   value = aws_instance.ubuntu.arn
 }
 
-output "instance_location" {
+output "region" {
   value = aws_instance.ubuntu.region
 }
